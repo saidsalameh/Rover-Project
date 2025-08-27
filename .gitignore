@@ -1,1 +1,4 @@
-my_bot/
+# Ignore ROS2 workspace build artifacts
+DEV_WS/build/
+DEV_WS/install/
+DEV_WS/log/
