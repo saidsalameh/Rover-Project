@@ -1,0 +1,25 @@
+Some definition of what we are doing during this first test : 
+
+1. Reward : 
+    + Positive for correct or good action 
+    - Negative if wrong action
+
+2. Terminated : 
+    Episod ends naturrally (example : completed, crash, race win,...)
+
+3. Truncated :
+    Episode ends due to an external factors (example : time limit, manual interruption,...)
+
+4. Observation :
+    The state representation (pixels, images, ...)
+
+5. Action :
+    All possible control inputs (steering, accelaration, braking,...)
+
+
+Dimension       Low         High        control
+------------------------------------------------------------------
+0           |   -0.1    |   1.0     |       steering(left to right)
+1           |    0.0    |   1.0     |       accelaration(none to full)
+2           |    0.0    |   1.0     |       Braking(none to full)
+
