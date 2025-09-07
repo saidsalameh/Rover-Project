@@ -1,6 +1,6 @@
 # Compiler :
 CXX := g++
-CXXFLAGS := -Wall -Wextra -std=c++11
+CXXFLAGS := -Wall -Wextra -std=c++17
 
 # Use pkg-config properly
 PKG_CFLAGS := $(shell pkg-config --cflags opencv4)
